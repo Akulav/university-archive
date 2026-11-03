@@ -1,14 +1,19 @@
-# RTP-LAB1
+# RTP Lab 1: Stream Processing with Elixir
 
-I miss normal programming...
+A real-time programming lab. It reads a stream of tweets and runs sentiment analysis on them with a supervised pool of workers.
 
-## Instructions
+## Features
 
-1. mix run --no-halt (IDK why it needs --no-halt, but it works so yeah...)
+- 4 workers (easy to scale) that receive messages round-robin from a router
+- Failed workers are restarted automatically by their supervisor
+- Sentiment analysis of each tweet using a word-score list
+- Prints each tweet with its sentiment score
 
-### Functionality:
+## Running
 
-1. 4 Hard-coded workers (scalable) work in round-robin style.
-2. In case of failure workers will be restarted (like every problem in elixir)
-3. Sentiment analysis 
-4. Print analysis results + tweet
+```bash
+mix deps.get
+mix run --no-halt
+```
+
+`--no-halt` keeps the VM running after startup so the application can keep processing the stream.

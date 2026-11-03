@@ -1,9 +1,12 @@
-# PiCruncher
-This program calculates the last few digits of Pi (can be specified in the program)
+# Pi Cruncher
 
-# How to use?
-1. Open the .sln file in visual studio. Needs .NET to be installed.
-2. Build and start.
+A WinForms app that computes digits of Pi. You set how many digits to compute in the program.
 
-# Additional notes
-- The program uses a non-optimal algorithm. Values over 10000 will result in freezes and slow calculations.
+## Running
+
+1. Open `ComputePi.sln` in Visual Studio (requires the .NET Framework).
+2. Build and press **Start**.
+
+## Notes
+
+The algorithm is not optimised. Asking for more than about 10,000 digits makes the app freeze and calculate very slowly.

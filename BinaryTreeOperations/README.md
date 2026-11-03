@@ -1,6 +1,20 @@
-# BinaryTreeOperations
+# Binary Tree Operations
 
-The program allows inserting nodes into a binary tree and all operations (inorder,postorder,preoder) + printing the tree in ASCII mode.
+A console program for working with a binary search tree in C.
 
-Binary Tree operations. This Program is created by Turcan Catalin in its entirety. This allows traversals/searching/deletion and printing.
-I do allow my code to be copied, but the original source must be specified in the code/application, otherwise law may be applied.
+## Features
+
+- Insert, search and delete nodes
+- Inorder, preorder and postorder traversals
+- Print the tree in ASCII form
+
+## Running
+
+```bash
+gcc main.c -o tree
+./tree
+```
+
+## License
+
+You may reuse this code as long as you credit the original source (Turcan Catalin) in your code or application.

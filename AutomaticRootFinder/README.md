@@ -1,4 +1,18 @@
-# AutomaticRootFinder (Bisection)
+# Automatic Root Finder (Bisection)
 
-The program uses the bisection method for finding the roots. Only the tolerance and the function should be modified inside the program.
-The lower and upper bounds are AUTOMATICALLY found and should only be modified if the program fails to find any root. Only one root is found!
+Finds a root of a function using the bisection method. The lower and upper bounds are found automatically.
+
+## Usage
+
+1. Open `Main.java` and set the function and the tolerance.
+2. Compile and run:
+
+```bash
+javac Main.java
+java Main
+```
+
+## Notes
+
+- Only change the bounds manually if the program fails to find a root.
+- Only one root is found per run.

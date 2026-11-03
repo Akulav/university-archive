@@ -1,5 +1,19 @@
-JAVA PROGRAM THAT CONVERTS CFG TO CNF                                                                                                      
-THE GRAMMAR IS GIVEN AS INPUT TO TWO ARRAYS                                                                                               
-"grammar_left" IS THE LEFT SIDE OF THE GRAMMAR                                                                                             
-"grammar_right" IS THE RIGHT SIDE OF THE GRAMMAR.                                                                                         
-THE ARRAYS ARE IN A BIJECTIVE RELATION (1:1).
+# CFG to Chomsky Normal Form
+
+A Java program that converts a context-free grammar (CFG) into Chomsky Normal Form (CNF).
+
+## Input
+
+The grammar is hard-coded in `Main.java` as two parallel arrays:
+
+- `grammar_left`: the left-hand side (non-terminal) of each production
+- `grammar_right`: the matching right-hand side
+
+Entry `i` in one array matches entry `i` in the other (a 1:1 mapping).
+
+## Running
+
+```bash
+javac Main.java
+java Main
+```

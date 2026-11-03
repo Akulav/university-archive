@@ -1,7 +1,19 @@
-# WebGL_TexturesAndModels
+# WebGL Textures and Models
 
-This code allows the creation of 3 figures: sphere, cube and pyramid.
-All of them can be translated using the "wasd" keys, rotated, or scaled using the mouse wheel.
-The light can be moved and changed color. You can delete an object from the canvas after selecting it from
-the drop-down menu and then pressing the "del" button. Aside from 3 lights, which can invidualy be manipulated, you can 
-load textures and models.
+Builds on [WebGL_Light](../WebGL_Light) with multiple lights, textures and model loading.
+
+## Features
+
+- Create spheres, cubes and pyramids
+- Move objects with **W A S D**, rotate them, and scale with the mouse wheel
+- Three lights, each with its own position and colour
+- Load textures and 3D models
+- Remove an object by selecting it in the drop-down and pressing **Del**
+
+## Running
+
+Serve the folder locally (texture loading needs HTTP) and open `catalin.html` or `SovietUnion.html`:
+
+```bash
+python -m http.server
+```
